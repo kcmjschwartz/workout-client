@@ -16,7 +16,9 @@ const Login = (props) => {
             })
         })
         .then((response) => response.json())
-        .then((data) => {props.updateToken(data.sessionToken);
+        .then((data) => {
+            // console.log(data);
+            props.updateToken(data.sessionToken);
         }).catch(err => console.log(err))
 
     }

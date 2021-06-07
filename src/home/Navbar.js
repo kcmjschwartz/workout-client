@@ -7,7 +7,7 @@ import{
 const Sitebar = (props) =>{
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggle =() =>{
+    const toggle = () =>{
         let newIsOpen = !isOpen;
         setIsOpen(newIsOpen);
     }

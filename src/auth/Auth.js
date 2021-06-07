@@ -4,7 +4,7 @@ import Signup from './Signup';
 import Login from './Login';
 
 const Auth = (props) => {
-
+    console.log(props);
     return(
         <Container className="auth-container">
             <Row>
